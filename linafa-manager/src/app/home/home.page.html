@@ -1,12 +1,30 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+  <meta name="viewport" content="width=device-width" />
 </ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://beta.ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <ion-img class="img-icon" style="width: 180px; height: 180px;" src="assets\icon\Logo.png"></ion-img>
+  <div padding align="center" class="layout">
+
+    <b>LOGIN</b>
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+      <ion-label floating class="layout">NOMBRE DE CUENTA</ion-label>
+      <ion-input class="holder" type="text" value="" #username></ion-input>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="row">
+      <ion-label floating class="layout">Password</ion-label>
+      <ion-input class="holder" type="password" #password></ion-input>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="row">
+      <ion-button class="botton" expand="block" href="/menu-admin">INICIAR SESIÓN</ion-button>
+    </div>
+  </div>
 </ion-content>

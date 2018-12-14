@@ -10,11 +10,59 @@
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
 
+
+.img-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.layout{
+    color: azure;
+    font-size: 170%;
+    text-align: center;
+}
+
+.label{
+    color: azure;
+    text-align: center;
+    font-size: 130%;
+    padding: 2px;
+    background-color: black;
+}
+
 .button{
-    height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
-    position:relative;
-    top:50%; 
-    left:50%;
+    font-size:calc(4px + 1.4vw);
+    font-weight: bold; 
+    padding: 2px;
+    
+}
+.wrapper{
+   text-align: center;
+    padding: 15px 60px;
+}
+
+.text-input{
+    background-color: aliceblue;
+}
+
+
+.holder{
+    color: black;
+    background-color: aliceblue;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+   
+   
+}
+
+
+.row2{
+    text-align: center;
+    display:inline-block;
+    padding: 0px 10px;
 }
