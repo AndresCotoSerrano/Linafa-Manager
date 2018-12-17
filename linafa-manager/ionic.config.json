@@ -1,5 +1,7 @@
 {
   "name": "linafa-manager",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
