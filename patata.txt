@@ -1,0 +1,2 @@
+manager_Proyect.1 pass of the mysql local data base
+oFdcbiPqHw22kUl799aL key for encrypt the password with aes function
